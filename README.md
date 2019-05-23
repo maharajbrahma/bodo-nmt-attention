@@ -43,3 +43,13 @@ or
 chmod +x out.sh
 ./out.sh
 ```
+- View the translated sentence
+```shell
+gedit output.brx
+```
+*Terminal editor like nano does not render Bodo characters properly its better to view it in gedit*
+
+- Calculate BLEU score
+```shell
+perl multi-bleu.perl nmt_data/tst2013.brx < output.brx
+```
