@@ -15,8 +15,9 @@ English-Bodo (Eng-Brx) Neural Machine Translation despite having potential no pr
 # Dataset
 *Tourism corpus*: English-Bodo parallel corpus of Tourism domain (20901 sentences) provided by the [TDIL-DC](https://tdil-dc.in)
 
-*The detailed steps of cleaning and preprocessing is present in paper*
-*All experiment are performed using Tensorflow NMT Framework by Thang Luong, Eugene Brevdo, Rui Zhao*
+*The detailed steps of cleaning and preprocessing is present in paper*.
+
+*All experiment are performed using Tensorflow NMT Framework by Thang Luong, Eugene Brevdo, Rui Zhao*.
 
 # Training
 The training process is similar to that of [Tensorflow NMT](https://github.com/tensorflow/nmt) however for better handling of hyper-parameters and execution we made a shell script **start.sh**. The hyper-parameters could be changed in the **start.sh** file.
