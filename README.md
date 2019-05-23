@@ -34,7 +34,7 @@ The trained models are saved in the **models/** directory.
 
 # Testing
 For testing the trained model on test set execute **out.sh**.
-
+- Translating 2090 English sentences to Bodo sentences
 ```shell
 bash out.sh
 ```
