@@ -55,7 +55,7 @@ perl multi-bleu.perl nmt_data/tst2013.brx < output.brx
 ```
 
 # Translating
-- English sentence in **test.en**
+- Enter English sentence which you want to translate in **test.en** file
 - Change the models path in **translate.sh**
 - Generate translation [Eng->Brx]
 ```shell
