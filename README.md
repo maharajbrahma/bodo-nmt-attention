@@ -47,9 +47,26 @@ chmod +x out.sh
 ```shell
 gedit output.brx
 ```
-*Terminal editor like nano does not render Bodo characters properly its better to view it in gedit or leafpad*
+*Terminal editor like nano does not render Bodo characters properly so it's better to view it in gedit or leafpad*
 
 - Calculate BLEU score
 ```shell
 perl multi-bleu.perl nmt_data/tst2013.brx < output.brx
+```
+
+# Translating
+- English sentence in **test.en**
+- Change the models path in **translate.sh**
+- Execute **translate.sh**
+```shell
+bash translate.sh
+```
+or 
+```shell
+chmod +x translate.sh
+./translate.sh
+```
+- See translated Bodo sentence
+```shell
+gedit out.brx
 ```
