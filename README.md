@@ -47,7 +47,7 @@ chmod +x out.sh
 ```shell
 gedit output.brx
 ```
-*Terminal editor like nano does not render Bodo characters properly its better to view it in gedit*
+*Terminal editor like nano does not render Bodo characters properly its better to view it in gedit or leafpad*
 
 - Calculate BLEU score
 ```shell
