@@ -27,8 +27,19 @@ bash start.sh
 ```
 or 
 ```shell
+chmod +x start.sh
 ./start.sh
 ```
 The trained models are saved in the **models/** directory.
 
 # Testing
+For testing the trained model on test set execute **out.sh**.
+
+```shell
+bash out.sh
+```
+or
+```shell
+chmod +x out.sh
+./out.sh
+```
