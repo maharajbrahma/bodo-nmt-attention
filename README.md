@@ -18,7 +18,7 @@ English-Bodo Neural Machine Translation despite having potential no prior resear
 *The detailed steps of cleaning and preprocessing is present in paper*
 
 # Training
-* The hyper-parameters could be changed in the **start.sh** file.
+The hyper-parameters could be changed in the **start.sh** file.
 
 ``` shell
 bash start.sh
@@ -27,7 +27,6 @@ or
 ```shell
 ./start.sh
 ```
-
 The trained models are saved in the **models/** directory.
 
 # Testing
