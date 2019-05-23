@@ -1,6 +1,6 @@
 # Word-Level English-Bodo Neural Machine Translation
 
-*Work-done by: Sanjib Narzary, Maharaj Brahma, Bobita Singha, Rangjali Brahma, Bonali Dibragede, Sunita Barman*
+*Work done by: Sanjib Narzary, Maharaj Brahma, Bobita Singha, Rangjali Brahma, Bonali Dibragede, Sunita Barman*
 
 - [Introduction](#introduction)
 - [Dataset](#dataset)
@@ -18,7 +18,7 @@ English-Bodo Neural Machine Translation despite having potential no prior resear
 *The detailed steps of cleaning and preprocessing is present in paper*
 
 # Training
-The hyper-parameters could be changed in the **start.sh** file.
+The training process is similar to that of [Tensorflow NMT](https://github.com/tensorflow/nmt) however for better handling of hyper-parameters and execution we made a shell script **start.sh**. The hyper-parameters could be changed in the **start.sh** file.
 
 ``` shell
 bash start.sh
