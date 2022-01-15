@@ -1,7 +1,5 @@
 # Attention based English-Bodo Neural Machine Translation
 
-*Work done by: Sanjib Narzary, Maharaj Brahma, Bobita Singha, Rangjali Brahma, Bonali Dibragede, Sunita Barman*
-
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Training](#training)
